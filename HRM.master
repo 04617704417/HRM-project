@@ -1,0 +1,65 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HRM.master.cs" Inherits="HRM" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>HRM</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        D<div class="page-out">
+        <div class="page-in">
+            <div class="page">
+                <div class="main">
+                    <div class="header">
+                        <div class="header-top">
+                            <h1>
+                                HUMAN RESOURCE HIRING
+                            </h1>
+                        </div>
+                        <div class="header-bottom">
+                            <h2>
+                                Human Resource
+                                <br />
+                                Step Towards Success
+                            </h2>
+                        </div>
+                        <div class="topmenu">
+                            <ul>
+                                <li style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial;
+                                    -moz-background-origin: initial; -moz-background-inline-policy: initial; padding-left: 0px;">
+                                    <a href="Home.aspx"><span>Home</span></a></li>
+                                <li><a href="aboutUs.aspx"><span>About us</span></a></li>
+                                <li><a href="UserLogin.aspx"><span>Login</span></a></li>
+                                <li><a href="CommonRegistration.aspx"><span>Registration</span></a></li>
+                                <li><a href="ContactUs.aspx"><span>Contact us</span></a></li>
+                                <li><a href="JobDetals.aspx"><span>View Jobs </span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="footer">
+                    <p>
+                        Copyright 2017. Designed by Rahul & Co.
+                    </p>
+                    <ul>
+                        <li style="border-left: medium none;"><a href="Home.aspx"><span>Home</span></a></li>
+                        <li><a href="aboutUs.aspx"><span>About us</span></a></li>
+                        <li><a href="ContactUs.aspx"><span>Contact Us</span></a></li>
+                        <li><a href="Home.aspx"><span>Log Out</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
